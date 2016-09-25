@@ -1,0 +1,25 @@
+{
+  "name": "qualityfactory-qf_elview",
+  "version": "0.0.1",
+  "author": "qualityfactory",
+  "summary": "Módulo para gerenciar o servidor web apache",
+  "license": "Apache-2.0",
+  "operatingsystem_support": [{
+      "operatingsystem": "CentOS",
+      "operatingsystemrelease": [
+        "7"
+      ]
+    }],
+  "requirements": [
+   {
+     "name": "puppet",
+     "version_requirement": ">= 4.2.1"
+   }
+ ],
+  "source": "git://github.com/QualityFactory/qf_elview",
+  "project_page": "https://github.com/QualityFactory/qf_elview",
+  "issues_url": "https://github.com/QualityFactory/qf_elview",
+  "dependencies": [
+    {"name":"puppetlabs-apache","version_requirement":">= 1.10.0"}
+  ]
+}
